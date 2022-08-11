@@ -1,7 +1,18 @@
+# Table of Contents
+
+* [Introduction](#Introduction)
+* [Question 1.1](#Question1)
+* [Question 1.2](#Question2) 
+* [Question 1.3](#Question3) 
+* [Question 1.4](#Question4) 
+* [Question 1.5](#Question5)
+
+
+
 # Stellar-Classification
 A machine learning project to classify stars.
 
-# Introduction
+# Introduction <a class="anchor" id="Introduction"></a>
 
 Stellar classification is the classification of stars based on their characteristic features. Stellar classification is one of the subtopics of Astronomy. The dataset contains 7 features (columns) for each star. These features are:
 
