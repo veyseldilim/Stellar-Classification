@@ -2,7 +2,14 @@
 
 * [Introduction](#Introduction)
 * [Data Visualization](#Data Visualization)
-
+* [Data Preparation](#Data Preparation) 
+            * [Missing Values](#Missing Values)
+            * [Distribution of Values](#Distribution of Values)
+            * [Duplicated Rows](#Duplicated Rows)
+* [Models](#Models) 
+            * [Decision Tree Model](#Decision Tree Model)
+            * [KNN Model](#KNN Model)
+* [CONCLUSION](#CONCLUSION) 
 
 
 
@@ -31,7 +38,7 @@ Main Sequence – 3
 Super Giant – 4
 Hyper Giant – 5
 
-# Data Visualization <a class="anchor" id="#Data Visualization"></a>
+# Data Visualization <a class="anchor" id="Data Visualization"></a>
 
 Data visualization plays a critical role in understanding the dataset we work on. It may give us hints.
 
