@@ -2,14 +2,7 @@
 
 * [Introduction](#Introduction)
 * [Data Visualization](#Data Visualization)
-* [Data Preparation](#Data Preparation) 
-            * [Missing Values](#Missing Values)
-            * [Distribution of Values](#Distribution of Values)
-            * [Duplicated Rows](#Duplicated Rows)
-* [Models](#Models) 
-            * [Decision Tree Model](#Decision Tree Model)
-            * [KNN Model](#KNN Model)
-* [CONCLUSION](#CONCLUSION) 
+
 
 
 
