@@ -3,12 +3,12 @@
 * [Introduction](#Introduction)
 * [Data Visualization](#Data_Visualization)
 * [Data Preparation](#Data_Preparation) 
-          ** [Missing Values](#Missing_Values)
-* [Distribution of Values](#Distribution_of_Values)
-* [Duplicated Rows](#Duplicated_Rows)
+   * [Missing Values](#Missing_Values)
+   * [Distribution of Values](#Distribution_of_Values)
+   * [Duplicated Rows](#Duplicated_Rows)
 * [Models](#Models) 
-            * [Decision Tree Model](#Decision_Tree_Model)
-            * [KNN Model](#KNN_Model)
+   * [Decision Tree Model](#Decision_Tree_Model)
+   * [KNN Model](#KNN_Model)
 * [CONCLUSION](#CONCLUSION) 
 
 
