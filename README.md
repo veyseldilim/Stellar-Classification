@@ -38,7 +38,7 @@ Main Sequence – 3
 Super Giant – 4
 Hyper Giant – 5
 
-# Data Visualization <a class="anchor" id="Data Visualization"></a>
+# Data Visualization <a class="anchor" id="#Data Visualization"></a>
 
 Data visualization plays a critical role in understanding the dataset we work on. It may give us hints.
 
