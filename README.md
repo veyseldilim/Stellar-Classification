@@ -1,11 +1,16 @@
 # Table of Contents
 
 * [Introduction](#Introduction)
-* [Question 1.1](#Question1)
-* [Question 1.2](#Question2) 
-* [Question 1.3](#Question3) 
-* [Question 1.4](#Question4) 
-* [Question 1.5](#Question5)
+* [Data Visualization](#Data Visualization)
+* [Data Preparation](#Data Preparation) 
+            * [Missing Values](#Missing Values)
+            * [Distribution of Values](#Distribution of Values)
+            * [Duplicated Rows](#Duplicated Rows)
+* [Models](#Models) 
+            * [Decision Tree Model](#Decision Tree Model)
+            * [KNN Model](#KNN Model)
+* [CONCLUSION](#CONCLUSION) 
+
 
 
 
@@ -33,7 +38,7 @@ Main Sequence – 3
 Super Giant – 4
 Hyper Giant – 5
 
-# Data Visualization
+# Data Visualization <a class="anchor" id="Data Visualization"></a>
 
 Data visualization plays a critical role in understanding the dataset we work on. It may give us hints.
 
@@ -49,18 +54,18 @@ The matrix below shows the scatter plots and value chart graphs. Intersection po
 Examining these plots, we can select only some features to train our data to save time and resources. This is called feature selection.
 
 
-# Data Preparation
+# Data Preparation <a class="anchor" id="Data Preparation"></a>
 
 As the first step, the dataset has been imported from a .csv file by using pandas library. Total number of rows and columns have been found out by using shape method. There are 240 rows and 7 attributes.
 
-2.1 Missing Values
+2.1 Missing Values <a class="anchor" id="Missing Values"></a>
 
 Whether the dataset contains any missing values has been investigated. For this operation, “info()” function from pandas library has been used. The dataset contains no missing values. This function also shows data types for each feature. Object is usually string.
 
 ![image](https://user-images.githubusercontent.com/50465232/184244182-0dc788c8-35b6-4fc3-ae58-caef2e8127df.png)
 
 
-2.2 Distribution of Values
+2.2 Distribution of Values <a class="anchor" id="Distribution of Values"></a>
 
 Distribution of values for each feature has been investigated to observe outliers or faults.
 
@@ -95,14 +100,14 @@ Now draw boxplot for each continious numeric feature.
 
 There are many outliers. Outliers should be removed or corrected.
 
-2.3 Duplicated Rows
+2.3 Duplicated Rows <a class="anchor" id="Duplicated Rows"></a>
 
 To check for duplicated rows, duplicated() function has been used. This function returned ‘false’ for each row, meaning there are no duplicated rows for this dataset.
 
 
-# Models
+# Models <a class="anchor" id="Models"></a>
 
-## 3.1 Decision Tree Model
+## 3.1 Decision Tree Model <a class="anchor" id="Decision Tree Model"></a>
 
 Decision tree is based on partitioning the dataset by descriptive feature that has highest information gain. 
 
@@ -151,7 +156,7 @@ In tree graph, only R and A_M features had been used. So before splitting datase
 If there was more column, the runtime would drop more.
 
 
-# 3.2 KNN Model
+# 3.2 KNN Model <a class="anchor" id="KNN Model"></a>
 
 K-Nearest Neighbor is a non-parametric machine learning method which is used in both classification and regression. As its name states, prediction is made by summing distances between existing instances and new instances. K number of ordered values (ascending) are checked by their class values. Highest frequency class value is selected as prediction of the new instance.  
 
@@ -204,7 +209,7 @@ Now select this k value to predict test dataset.
 
 The result is almost same. But this result is more trustworthy than the first result where accuracy value is 1.
 
-# CONCLUSION
+# CONCLUSION <a class="anchor" id="CONCLUSION"></a>
 
 The models almost equal accuracy rates so it better to look at their runtime. Decision tree runs faster than KNN model and cross validation score of decision tree for each fold is 1 as KNN model’s is not.
 So we can say that decision tree is more suitable than KNN for this dataset.
